@@ -1,4 +1,4 @@
-const hostname = '127.0.0.1';
+/*const hostname = '127.0.0.1';
 const port = 3000;
 
 fetch(`http://${hostname}:${port}/api/829487499944394752/rankingPlayers.json`, {
@@ -8,7 +8,7 @@ fetch(`http://${hostname}:${port}/api/829487499944394752/rankingPlayers.json`, {
     .then(data => {
         console.log(data)
         ranking(data)
-    });
+    });*/
 
 /*fetch(`http://${hostname}:${port}/api/829487499944394752/teams.json`, {
     method: 'GET',

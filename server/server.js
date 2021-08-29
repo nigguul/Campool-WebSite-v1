@@ -20,13 +20,6 @@ const server = http.createServer((req, res) => {
         res.statusCode = 200;
         res.setHeader('Content-Type', 'text/html')
         res.end(FS.readFileSync(`../Campool WebSite/home/index.html`));
-      } else if (req.url.endsWith('n') == true) {
-        res.statusCode = 200;
-        res.setHeader('Content-Type', 'application/json');
-        res.setHeader('Access-Control-Allow-Origin', '*');
-        const teste = FS.readFileSync(`../api/829487499944394752/rankingPlayers.json`)
-        console.log(teste)
-        res.end(teste)
       } else {
         res.statusCode = 200;
         res.setHeader('Content-Type', contentType[req.url.split(".")[1]]);
