@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'campool'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a65e0d8434234583a87d43c879fd33fa }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_455fb82ee9c246bc9c422d7562168d75 }}
         package: .
