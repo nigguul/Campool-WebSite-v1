@@ -2,7 +2,7 @@ const http = require('http');
 const FS = require("fs");
 
 const hostname = '127.0.0.1';
-const port = 80;
+const port = process.env.PORT || 80;
 
 const contentType = {
   'js' : 'text/javascript',
