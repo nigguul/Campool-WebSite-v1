@@ -18,11 +18,11 @@ const server = http.createServer((req, res) => {
       if (req.url == "/") {
         res.statusCode = 200;
         res.setHeader('Content-Type', 'text/html')
-        res.end(FS.readFileSync(`./home/index.html`));
+        res.end(FS.readFileSync(`home/index.html`));
       } else {
         res.statusCode = 200;
         res.setHeader('Content-Type', contentType[req.url.split(".")[1]]);
-        res.end(FS.readFileSync(`./home${req.url}`));
+        res.end(FS.readFileSync(`home${req.url}`));
       }
   } catch (err) {
       console.log(err)
