@@ -1,0 +1,137 @@
+body {
+    background-color: #C4C4C4;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color: #EB2B44;
+    font-size: 48px;
+    font-family: 'VALORANT';
+    position: absolute;
+    left: 50%;
+    align-self: center;
+    transform: translate(-50%,0);
+    
+}
+
+.top-bar {
+    width: 100%;
+    height: 90px;
+    background: #222222;
+    display: flex;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 59px;
+    height: 59px;
+    padding: 0 15px;
+}
+
+.exit-icon {
+    width: 32px;
+    height: 32px;
+    padding: 0 15px;
+    position: absolute;
+    left: 96%;
+    align-self: center;
+    transform: translate(0,-50%);
+}
+
+.avatar-user {
+    width: 52px;
+    height: 52px;
+    padding: 0 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 92%;
+    align-self: center;
+}
+
+.content {
+    color: #000;
+    font-size: 64px;
+    font-family: 'VALORANT';
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    left: 35%;
+}
+
+.icons{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    gap: 12px;
+    padding: 8px;
+}
+
+.discord-icon, .twitch-icon {
+    cursor: pointer;
+    width: 54px;
+    height: 54px;
+}
+
+.battlefy-icon {
+    cursor: pointer;
+    width: 54px;
+    height: 50px;
+}
+
+.int {
+    color: white;
+    font-size: 42px;
+    font-family: 'Poppins';
+    font-weight: 200;
+    text-decoration: none;
+    text-align: center;
+    width: 54px;
+    height: 54px;
+    background-color: #000;
+    border-radius: 50%;
+    border: none;
+    bottom: 0;
+    position: absolute;
+    margin: 0 15px 15px;
+}
+
+.int:hover {
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    transition: background 0.2s, color 0.2s;
+}
+.ranking-box h2 {
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.ranking-box {
+    width: 1005px;
+    height: 60px;
+    background-color: #333;
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+.ranking {
+    width: 1005px;
+    height: 600px;
+    background-color: #444;
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}

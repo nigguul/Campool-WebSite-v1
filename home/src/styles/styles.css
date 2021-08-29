@@ -1,0 +1,99 @@
+body {
+    background-color: #C4C4C4;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color: #EB2B44;
+    font-size: 48px;
+    font-family: 'VALORANT';
+    position: absolute;
+    left: 50%;
+    align-self: center;
+    transform: translate(-50%,0);
+    
+}
+
+.top-bar {
+    width: 100%;
+    height: 90px;
+    background: #222222;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p1 {
+    color: black;
+    font-size: 36px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    text-align: center;
+    width: 680px;
+    position: absolute;
+    top: 25%;
+}
+
+.login {
+    color: #EB2B44;
+    text-align: center;
+    text-decoration: none;
+    font-size: 55px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    background: #333333;
+    border-radius: 12px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+    height: 129px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    transition: background 0.2s, color 0.2s;
+}
+
+.login:hover {
+    cursor: pointer;
+    background: #EB2B44;
+    color: #ffffff;
+}
+
+.logo {
+    width: 59px;
+    height: 59px;
+    padding: 0 15px;
+}
+
+.icons{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    gap: 12px;
+    padding: 8px;
+}
+
+.discord-icon, .twitch-icon {
+    cursor: pointer;
+    width: 54px;
+    height: 54px;
+}
+
+.battlefy-icon {
+    cursor: pointer;
+    width: 54px;
+    height: 50px;
+}
